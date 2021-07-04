@@ -293,7 +293,7 @@ label {
     align-items: center;
     justify-content: center;
 
-    color: white;
+    color: #011E2C;
 
     font-size: 1.6rem;
 
@@ -311,13 +311,13 @@ label {
 
 label:hover {
 
-    background: white;
-    color: #0096B1;
+    background: #011E2C;
+    color: white;
 
     border-radius: 10px;
     box-shadow: 0 0 5px;
 
-    text-shadow: 0 0 1px #011E2C;
+    text-shadow: 0 0 5px #0096B1;
 
 }
 
@@ -343,7 +343,7 @@ label:hover {
 
         display: flex;
 
-        top: 50px;
+        top: 25px;
 
         transition: 0.5s;
 
@@ -381,14 +381,15 @@ label:hover {
         background: #ffffffaf;
 
         width: 100vw;
-        height: 100vh;
+        min-height: 100vh;
 
-        padding: 8rem 0 2rem 0;
+        padding: 6rem 0 10rem 0;
 
     }
 
     header nav.menu ul a li {
 
+        background: #0096b152;
         color: #011E2C;
 
         font-size: 2rem;
@@ -398,7 +399,7 @@ label:hover {
 
         width: 100vw;
 
-        padding: 2rem 0;
+        padding: 1.5rem 0;
 
     }
 
